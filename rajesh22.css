@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+}
+.main{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    justify-content:; /*center the elements in main axis*/
+    row-gap: 0px;
+    align-items: center;/*center the elements in cross axis*/
+    align-content:center;
+    justify-items: center;
+    
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    
+    
+}
+.r1{
+    flex-basis:200px ;
+}
+
+.r2{
+    
+}
